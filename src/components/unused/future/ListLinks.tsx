@@ -1,7 +1,7 @@
 "use client";
 
 import { RiTwitterXLine } from "react-icons/ri";
-import FooterIconLink from "./IconLink";
+import FooterIconLink from "../../IconLink";
 import {
   PiEnvelope,
   PiFilePdf,

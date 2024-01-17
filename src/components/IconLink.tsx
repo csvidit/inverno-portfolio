@@ -72,14 +72,14 @@ const IconLink = (props: {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               layoutId="footer-link-hover-shine-top"
-              className="rounded-md absolute bottom-0 left-0 h-[1px] w-11/12 bg-gradient-to-r from-transparent via-orange-500 to-transparent"
+              className="rounded-full absolute bottom-0 left-0 h-[1px] w-11/12 bg-gradient-to-r from-transparent via-neutral-100 to-transparent"
             />
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               layoutId="footer-link-hover-shine-bottom"
-              className="rounded-md absolute top-0 left-0 h-[1px] w-11/12 bg-gradient-to-r from-transparent via-orange-500 to-transparent"
+              className="rounded-full absolute top-0 left-0 h-[1px] w-11/12 bg-gradient-to-r from-transparent via-neutral-100 to-transparent"
             />
           </>
         )}
